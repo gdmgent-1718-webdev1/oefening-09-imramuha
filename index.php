@@ -20,7 +20,7 @@ if ($isSubmitted){
 </head>
 <body>
     <div class="container">
-    <?php if($isSubmitted): ?>                                                              <!-- if the searchfield is surely not empty -->   
+    <?php if($isSubmitted): ?>                                                              <!-- if isSubmitted -->   
        <h1> Zoekresultaten voor zoekopdracht:<br> <?= $userInput ?> </h1>                   <!-- text that has been submitted into that field-->
        <?php else: ?>                                                                       <!-- else show the form -->
         
